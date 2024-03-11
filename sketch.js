@@ -1,9 +1,12 @@
 function setup() {
  // put setup code here
-  createCanvas(800, 800);
+  createCanvas(1200, 1200);
   background(255);
 }
 
 function draw() {
-  // put drawing code here
+  fill(0);
+  stroke(145, 200, 89);
+  strokeWeight(2);
+  rect(width/2, height/2, 400, 400);
 }
